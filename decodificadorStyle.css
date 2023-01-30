@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #E5E5E5;
+    min-height: 100vh;
+    padding: 10px;
+    margin-left: 10px;
+   
+}
+
+header {
+    margin: 0 0 30px 74px;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+#editor_area {
+    resize: none;
+    overflow: hidden;
+    border: none;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0A3871;  
+
+}
+
+#editor_area::placeholder {
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-size: 32px;
+}
+
+#answer-box {
+    width: 400px;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#text-answer {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+}
+
+footer {
+    margin-left: 140px;
+}
+
+.atention-notice {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#warning-text {
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+
+#button-one {
+    background: #0A3871;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    height: 67px;
+    width: 328px;
+    text-shadow: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#button-one:hover {
+	transform: scale(1.1);
+}
+
+#button-two {
+    background: #D8DFE8;
+    color: #0A3871;
+    border: #0A3871 solid 1px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    height: 67px;
+    width: 328px;
+    text-shadow: none;
+    border-radius: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#button-two:hover {
+	transform: scale(1.1);
+}
+
